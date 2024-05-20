@@ -19,38 +19,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+  I am a software engineering student with a passion for problem-solving and a background in competitive programming tournaments, 
+  <br />
+  <br />I'm currently delving into the exciting realms of DevOps and cloud computing.
+  <i>
+    <b className="purple">Azure</b>
+  </i>
+  <br />
+  
+  <br />
+  Whenever possible, I also apply my passion for developing products
+  with <b className="purple">.Net , spring boot </b> and
+  <i>
+    <b className="purple"> Modern Javascript Libraries and Frameworks</b>
+  </i>
+  &nbsp; like
+  <i>
+    <b className="purple">React.js and Next.js</b>
+  </i>.
+  <br />
+  <br />
+  I also have experience with backend development using <b className="purple">.NET</b> and in DevOps with tools like <b className="purple">Kubernetes, Docker, and Jenkins</b>. I am eager to learn more about DevOps to enhance my skills in this area.
+</p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +58,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/bahaouni"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +66,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/baha-eddine-ouni-b56966246/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/ounibaha/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

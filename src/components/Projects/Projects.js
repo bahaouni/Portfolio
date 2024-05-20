@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import b from "../../Assets/Projects/bi3.png";
+import cypto from "../../Assets/Projects/cypto.png";
+import sec from "../../Assets/Projects/sec.png";
+import dashboard from "../../Assets/Projects/dashboard.png";
+import zitoun from "../../Assets/Projects/zitoun.png";
+
+import cd from "../../Assets/Projects/cd.gif";
+
 
 function Projects() {
   return (
@@ -23,68 +25,86 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={b}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="ChkounZed"
+              description={`Live Auction Website with real-time chat.
+              ◦ Implemented security measures using Spring Security and JWT, ensuring a safe bidding environment. \n 
+              ◦ Developed real-time chat functionality with WebSockets to facilitate communication among bidders.
+              Technologies: Next.js, Spring Boot, Spring Security, WebSocket, Docker, PostgreSQL, CI/CD.`}
+              
+              ghLink="https://github.com/bahaouni/AuctionFront"
+              
+              demoLink="https://drive.google.com/file/d/13D3lSuatLRw-UlJtA8P8Ar7YzZCgublV/view"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={sec}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="HomeSec"
+              description="Home Security App using face Recognition .◦ Led implementation of CI/CD pipeline using Azure DevOps for ASP.NET API backend, resulting in a 40%
+              reduction in deployment time.
+              ◦ Integrated secure authentication with ASP.NET and JWT tokens, ensuring data confidentiality.
+              ◦ Developed computer vision algorithms for real-time monitoring with high accuracy.
+              Technologies: React Native, ASP.NET, Azure, SQL Server, Flask, OpenCV."
+              ghLink="https://github.com/bahaouni/SecurityHome"
+              demoLink="https://github.com/bahaouni/SecurityHome"
+            />
+          </Col>
+
+      
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dashboard}
+              isBlog={false}
+              title="Loc'express"
+              description="Admin dashboard for renting houses webapplication ."
+              ghLink="https://github.com/bahaouni/dashboard"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={zitoun}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Estimating olive fruit production of a single olive tree using object recognition "
+              description={`Used Yolov8 to train a model that recognizes olives.
+              ◦ Collected and annotated a dataset of olive images to train the object detection model.
+              ◦ Implemented data augmentation techniques to improve the robustness and accuracy of the model.
+              ◦ Evaluated model performance 
+             
+              Technologies: Python, YOLOv8, OpenCV , robofloww.`}
+                            ghLink="https://github.com/bahaouni/ProjetSemestriel4"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={cd}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="• CI/CD Pipeline Implementation:"
+              description="Integrated secrets management to safeguard sensitive data.
+              ◦ Implemented vulnerability detection and automated testing for enhanced security.
+              ◦ Deployed microservices applications (Spring Boot and Node.js) to Kubernetes.
+              Technologies: Jenkins, Docker, Azure, Kubernetes, Sonarqube, Trivy , grafana , Prometheus, nexus , maven .
+              ."
+              ghLink="https://github.com/bahaouni/kubernetes-devops-security"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cypto}
+              isBlog={false}
+              title="cypto "
+              description="Website that provide crypto news . ◦ Leveraged Binance and TradingView APIs for real-time cryptocurrency prices.
+              ◦ Integrated Google Cloud API to fetch crypto-related videos from YouTube.
+              "
+                         
             />
           </Col>
         </Row>
